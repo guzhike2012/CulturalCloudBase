@@ -1,0 +1,11 @@
+framework module CulturalCloudBase {
+  umbrella header "CulturalCloudBase.h"
+
+  export *
+  module * { export * }
+}
+
+module CulturalCloudBase.Swift {
+    header "CulturalCloudBase-Swift.h"
+    requires objc
+}
