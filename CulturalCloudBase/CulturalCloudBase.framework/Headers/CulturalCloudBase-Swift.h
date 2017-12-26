@@ -172,8 +172,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
-@import NetService;
 @import ObjectiveC;
+@import NetService;
+@import UIKit;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -185,6 +187,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("CulturalCloudBase")
+
+SWIFT_CLASS("_TtC17CulturalCloudBase10BaseConfig")
+@interface BaseConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
 @class NSMutableURLRequest;
 @class NSMutableDictionary;
 @class ResponseModel;
@@ -214,9 +222,50 @@ SWIFT_CLASS("_TtC17CulturalCloudBase14BaseNetService")
 - (void)handleResponseModel:(ResponseModel * _Null_unspecified)model;
 @end
 
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC17CulturalCloudBase18BaseViewController")
+@interface BaseViewController : UIViewController
+- (void)viewDidLoad;
+/// 返回
+- (void)back;
+/// 点击标题
+- (void)onDidTouchTitle;
+/// 重新加载action
+- (void)loadReapplication;
+- (void)didReceiveMemoryWarning;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC17CulturalCloudBase17CheckStationModel")
 @interface CheckStationModel : NSObject
+@property (nonatomic) NSInteger id;
+@property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic) NSInteger districtId;
+@property (nonatomic, copy) NSDictionary * _Nullable district;
+@property (nonatomic, copy) NSString * _Nonnull group;
+@property (nonatomic) NSInteger parentId;
+@property (nonatomic) NSInteger parent;
+@property (nonatomic, copy) NSString * _Nonnull type;
+@property (nonatomic, copy) NSString * _Nonnull typeName;
+@property (nonatomic) NSInteger level;
+@property (nonatomic, copy) NSString * _Nonnull organizationCode;
+@property (nonatomic, copy) NSString * _Nonnull industryCode;
+@property (nonatomic, copy) NSString * _Nonnull tel;
+@property (nonatomic, copy) NSString * _Nonnull address;
+@property (nonatomic, copy) NSString * _Nonnull registeredType;
+@property (nonatomic, copy) NSString * _Nonnull membership;
+@property (nonatomic, copy) NSString * _Nonnull logo;
+@property (nonatomic) NSInteger createdAt;
+@property (nonatomic) NSInteger children;
+@property (nonatomic) NSInteger grade;
+@property (nonatomic) BOOL isDelete;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -231,10 +280,10 @@ SWIFT_CLASS("_TtC17CulturalCloudBase10MobService")
 @end
 
 
-/// 网络监听，使用final避免继承
-SWIFT_CLASS("_TtC17CulturalCloudBase16NetStatusMonitor")
-@interface NetStatusMonitor : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+SWIFT_CLASS("_TtC17CulturalCloudBase15ModalWindowView")
+@interface ModalWindowView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -243,9 +292,37 @@ SWIFT_CLASS("_TtC17CulturalCloudBase20UserAuthErrorService")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
+@class UserProFileModel;
 
 SWIFT_CLASS("_TtC17CulturalCloudBase8UserInfo")
 @interface UserInfo : NSObject
+@property (nonatomic) NSInteger id;
+@property (nonatomic, copy) NSString * _Nonnull userid;
+@property (nonatomic) NSInteger createdTime;
+@property (nonatomic, copy) NSString * _Nonnull realName;
+@property (nonatomic) NSInteger roleId;
+@property (nonatomic) NSInteger districtId;
+@property (nonatomic, copy) NSString * _Nonnull mobile;
+@property (nonatomic) NSInteger loginTimes;
+@property (nonatomic, copy) NSString * _Nonnull sex;
+@property (nonatomic, copy) NSString * _Nonnull createdIp;
+@property (nonatomic, copy) NSString * _Nonnull type;
+@property (nonatomic, copy) NSString * _Nonnull auth;
+@property (nonatomic, copy) NSString * _Nonnull avatar;
+@property (nonatomic, copy) NSString * _Nonnull password;
+@property (nonatomic, copy) NSString * _Nonnull salt;
+@property (nonatomic) BOOL isLocked;
+@property (nonatomic, copy) NSDictionary * _Nullable district;
+@property (nonatomic) NSInteger lastLoginTime;
+@property (nonatomic, copy) NSString * _Nonnull lastLoginIp;
+@property (nonatomic, copy) NSString * _Nonnull userName;
+@property (nonatomic, copy) NSString * _Nonnull plaintextPwd;
+@property (nonatomic) NSInteger organizationId;
+@property (nonatomic) NSInteger districtLevel;
+@property (nonatomic, copy) NSArray * _Nullable tags;
+@property (nonatomic, copy) NSArray * _Nullable permissions;
+@property (nonatomic, strong) UserProFileModel * _Nullable profile;
+@property (nonatomic, strong) CheckStationModel * _Nullable organization;
 - (void)onModelConvertFinished;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -253,6 +330,21 @@ SWIFT_CLASS("_TtC17CulturalCloudBase8UserInfo")
 
 SWIFT_CLASS("_TtC17CulturalCloudBase16UserProFileModel")
 @interface UserProFileModel : NSObject
+@property (nonatomic) NSInteger id;
+@property (nonatomic) NSInteger userId;
+@property (nonatomic, copy) NSString * _Nonnull gender;
+@property (nonatomic, copy) NSString * _Nonnull birthday;
+@property (nonatomic, copy) NSString * _Nonnull qq;
+@property (nonatomic, copy) NSString * _Nonnull email;
+@property (nonatomic, copy) NSString * _Nonnull idcard;
+@property (nonatomic, copy) NSString * _Nonnull types;
+@property (nonatomic, copy) NSString * _Nonnull nation;
+@property (nonatomic, copy) NSString * _Nonnull district;
+@property (nonatomic, copy) NSString * _Nonnull address;
+@property (nonatomic, copy) NSString * _Nonnull education;
+@property (nonatomic) BOOL hasDegree;
+@property (nonatomic, copy) NSString * _Nonnull degreeName;
+@property (nonatomic, copy) NSString * _Nonnull position;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

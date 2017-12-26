@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base_basevc_backBtn_frame</key>
+	<string>20,0,40,44</string>
+	<key>base_basevc_title_font</key>
+	<integer>17</integer>
+	<key>base_basevc_title_color</key>
+	<string>51,51,51,1</string>
+	<key>base_basevc_loadtitle_color</key>
+	<string>51,51,51,1</string>
+	<key>base_basevc_loadtitle_font</key>
+	<integer>14</integer>
+	<key>base_modalview_bgcolor</key>
+	<string>41,51,77,0.3</string>
+	<key>base_alerttool_title</key>
+	<string>温馨提示</string>
+	<key>base_alerttool_action_title</key>
+	<string>好的</string>
+	<key>base_alerttool_title_color</key>
+	<string>31,178,233,1</string>
+</dict>
+</plist>

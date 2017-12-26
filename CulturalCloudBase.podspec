@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CulturalCloudBase"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "CulturalCloudBase ios private libs"
   s.description  = "private libs create by OMT"
   s.homepage     = "https://github.com/liuf1986/CulturalCloudBase"
@@ -20,11 +20,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/liuf1986/CulturalCloudBase.git", :tag => s.version}
   s.ios.vendored_frameworks = "CulturalCloudBase/*.{framework}"
-#s.resources = "CulturalCloudBase/*.{bundle}"
+  s.resources = "CulturalCloudBase/*.{bundle}"
 #s.source_files  = "CulturalCloudBase/*.{h}"
 #s.public_header_files = "CulturalCloudBase/*.{h}"
 #s.libraries =  "z","sqlite3"
   s.frameworks = "CoreLocation"
   s.requires_arc = true
   s.dependency "OMTLibs"
+  s.dependency "Masonry"
 end
