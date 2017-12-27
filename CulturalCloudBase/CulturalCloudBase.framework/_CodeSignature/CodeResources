@@ -197,19 +197,19 @@
 		</dict>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm.swiftdoc</key>
 		<data>
-		IICRy+DayXylbiMarsBZ2u4314w=
+		7bsuTQhE/QDwHRPm1ybVcdWmmNI=
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm.swiftmodule</key>
 		<data>
-		9mZ+PSCnNLtXrKpBDeGtVYxFgfk=
+		Jdv9vw4Me7Rc5rz7BqMaaU6dKyA=
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		VoiVjdtfPMUk8E5GNAwGhQB1xMk=
+		TSvbOGx8rImuKlRcSfRomU9Xgik=
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/3aeDXgiZ2SXqAngF+3A0+8atpM=
+		tNKPlJWYyH2kE2ZXVhqRwaaJvIg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1397,44 +1397,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IICRy+DayXylbiMarsBZ2u4314w=
+			7bsuTQhE/QDwHRPm1ybVcdWmmNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			il0Ba4rSpAfBLC0JCn/Bb/UxGpUTrIozQqYm497DSfg=
+			5OgO3wzWPsNYVuR6cFx0JItApDPJ86xjx8PfW2a/L+Y=
 			</data>
 		</dict>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9mZ+PSCnNLtXrKpBDeGtVYxFgfk=
+			Jdv9vw4Me7Rc5rz7BqMaaU6dKyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8RaM0uwIQAJM44o9sJ8w2oGAqA7P1/wLXHRQ7SA2o30=
+			yA2HSMMWX4GJ6IoZpOzMoIOVNpPz23CZY84R4azTllw=
 			</data>
 		</dict>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VoiVjdtfPMUk8E5GNAwGhQB1xMk=
+			TSvbOGx8rImuKlRcSfRomU9Xgik=
 			</data>
 			<key>hash2</key>
 			<data>
-			YpfqVdRkUG1ZQqeWC7p5diV+46OdV1f5WNIPlcsVi4o=
+			JZNlcG8nFryIhGHdhrkiVQH8Pjz1K81//H+Hmh5oHlY=
 			</data>
 		</dict>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/3aeDXgiZ2SXqAngF+3A0+8atpM=
+			tNKPlJWYyH2kE2ZXVhqRwaaJvIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			whsmxELY7X0xxluPJQaXykAswN44/M0o2B/rEp/8sAo=
+			GHkKYlIOh5dR9By7JHzv/sqez1jZKo+3mqV6cQ7Zj7w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
