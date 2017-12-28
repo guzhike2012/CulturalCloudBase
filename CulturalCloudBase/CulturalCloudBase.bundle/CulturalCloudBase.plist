@@ -5,7 +5,7 @@
 	<key>base_basevc_backBtn_frame</key>
 	<string>20,0,40,44</string>
 	<key>base_basevc_title_font</key>
-	<integer>17</integer>
+	<string>17,bold</string>
 	<key>base_basevc_title_color</key>
 	<string>51,51,51,1</string>
 	<key>base_basevc_loadtitle_color</key>
