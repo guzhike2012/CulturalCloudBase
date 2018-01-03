@@ -201,7 +201,7 @@
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm.swiftmodule</key>
 		<data>
-		Jdv9vw4Me7Rc5rz7BqMaaU6dKyA=
+		wKzbMTkZb6K+eAdchwoZ+HvGNE8=
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -209,7 +209,7 @@
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		tNKPlJWYyH2kE2ZXVhqRwaaJvIg=
+		I/PVdB2zNcsOflRlj9UyjU+zhuM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1408,11 +1408,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jdv9vw4Me7Rc5rz7BqMaaU6dKyA=
+			wKzbMTkZb6K+eAdchwoZ+HvGNE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yA2HSMMWX4GJ6IoZpOzMoIOVNpPz23CZY84R4azTllw=
+			/PZ7V0fc2RaE4Az9luwZCzmshO7buoUiQWgMGHrgKT0=
 			</data>
 		</dict>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftdoc</key>
@@ -1430,11 +1430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tNKPlJWYyH2kE2ZXVhqRwaaJvIg=
+			I/PVdB2zNcsOflRlj9UyjU+zhuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHkKYlIOh5dR9By7JHzv/sqez1jZKo+3mqV6cQ7Zj7w=
+			ctzwDzkFoCao9t3kXhCusfFwbkH7NBm22egby9gySEI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
