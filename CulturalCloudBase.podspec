@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CulturalCloudBase"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "CulturalCloudBase ios private libs"
   s.description  = "private libs create by OMT"
   s.homepage     = "https://github.com/liuf1986/CulturalCloudBase"

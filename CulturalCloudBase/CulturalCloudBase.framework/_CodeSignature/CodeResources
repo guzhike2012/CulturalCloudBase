@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/CulturalCloudBase-Swift.h</key>
 		<data>
-		Jb1GdZcT/ty3Tnu/qN4uBHzx8Ls=
+		r/ku6BgTC5TkKS0lUlpAjwlOAF4=
 		</data>
 		<key>Headers/CulturalCloudBase.h</key>
 		<data>
@@ -201,7 +201,7 @@
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm.swiftmodule</key>
 		<data>
-		wKzbMTkZb6K+eAdchwoZ+HvGNE8=
+		htV5vr1BR+Ds25p5DEUa+5S6oQA=
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -209,7 +209,7 @@
 		</data>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		I/PVdB2zNcsOflRlj9UyjU+zhuM=
+		7ziiJhS2XeXWq2N+WYZOOP7mYwk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -929,11 +929,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jb1GdZcT/ty3Tnu/qN4uBHzx8Ls=
+			r/ku6BgTC5TkKS0lUlpAjwlOAF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			CnZOlNpVzL6TbsthEGiAmCFpO2/Q+9rWOJxzwzXwUK4=
+			0ju7AXPt78Z0uzCXl5DCi8dxJB97kURNy5KkjfFtQOY=
 			</data>
 		</dict>
 		<key>Headers/CulturalCloudBase.h</key>
@@ -1408,11 +1408,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wKzbMTkZb6K+eAdchwoZ+HvGNE8=
+			htV5vr1BR+Ds25p5DEUa+5S6oQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PZ7V0fc2RaE4Az9luwZCzmshO7buoUiQWgMGHrgKT0=
+			nV8Cto/se2o/IAaDXF10I23taQlEa3gcHJSQF/Jtt+k=
 			</data>
 		</dict>
 		<key>Modules/CulturalCloudBase.swiftmodule/arm64.swiftdoc</key>
@@ -1430,11 +1430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I/PVdB2zNcsOflRlj9UyjU+zhuM=
+			7ziiJhS2XeXWq2N+WYZOOP7mYwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ctzwDzkFoCao9t3kXhCusfFwbkH7NBm22egby9gySEI=
+			akO+mVNa7gQyz77EoYBrPA4PDDJaCHOEAeW/B+4rK00=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
